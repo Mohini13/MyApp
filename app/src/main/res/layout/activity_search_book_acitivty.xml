@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.raj.tourism.SearchInformation">
+
+
+    <EditText
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_name"
+        android:hint="Enter Name of book"
+        android:layout_alignBottom="@+id/btnSearch"
+        android:layout_toLeftOf="@+id/btnSearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="SEARCH NAME"
+        android:layout_alignParentRight="true"
+        android:onClick="seeBook"
+        android:id="@+id/btnSearch" />
+
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_height="50dp"
+        android:background="#F7819F"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dis_isbn"
+            android:text="isbn"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dis_author"
+            android:text="author"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <TextView
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dis_issued_on"
+            android:text="Iss_On"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dis_issued_by"
+            android:text="Iss_By"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Records"
+        android:id="@+id/btndelete"
+        android:onClick="deleteBook"
+        android:layout_marginRight="81dp"
+        android:layout_marginEnd="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnSearch"
+        android:layout_alignEnd="@+id/btnSearch"
+        android:layout_marginBottom="129dp" />
+
+
+</RelativeLayout>

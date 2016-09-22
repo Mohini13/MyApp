@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyBookLibrary</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new_book_acitivity">NewBookAcitivity</string>
+
+    <string name="hint_search">Search</string>
+    <string name="txtBook">Book Name</string>
+    <string name="txtISBN">Book ISBN #:</string>
+    <string name="txtAuthor">Author Name:</string>
+    <string name="txtIssuedON">Issued ON:</string>
+    <string name="txtIssuedBy">Issued By:</string>
+    <string name="btnSave">Save</string>
+    <string name="btnView">View</string>
+    <string name="txtName">Book Name:</string>
+    <string name="edtName" />
+    <string name="title_activity_data_list">DataListActivity</string>
+    <string name="title_activity_search_book">SearchBookActivity</string>
+    <string name="title_activity_search_book_acitivty">SearchBookAcitivty</string>
+</resources>
+
+

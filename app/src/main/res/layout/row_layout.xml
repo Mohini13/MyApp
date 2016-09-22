@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#F7819F">
+
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_book_name"
+        android:text="Name"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_isbn_number"
+        android:text="ISBN"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_author_name"
+        android:text="author"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Issued_date"
+        android:text="Iss On"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Issued_By"
+        android:text="Iss By"
+        android:gravity="center"
+        />
+
+</LinearLayout>
